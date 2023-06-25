@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #1b9c85;
   --secondary-color: #c8b6a6;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -21,14 +21,25 @@ h6 {
   font-weight: bold;
 }
 
-h1 {
+.content h1 {
   font-size: 96px;
   font-weight: bold;
   line-height: 1.5;
 }
 
-h2 {
+.content h2 {
   font-size: 64px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+
+.content p {
+  font-size: 14px;
 }
 
 .hero {
@@ -53,21 +64,21 @@ p {
   font-size: 24px;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
@@ -104,6 +115,7 @@ p {
   max-width: 100%;
   border-radius: 10px;
   height: auto;
+  vertical-align: middle;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -126,7 +138,7 @@ p {
     text-align: center;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
