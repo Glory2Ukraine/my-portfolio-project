@@ -119,6 +119,31 @@ p {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+.email-link {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.email-link:hover {
+  color: var(--branding-color);
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: #cdf0ea;
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+.social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
