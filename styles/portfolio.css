@@ -1,6 +1,6 @@
 :root {
   --branding-color: #1b9c85;
-  --secondary-color: #c8b6a6;
+  --secondary-color: #cdf0ea;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -21,7 +21,7 @@ h6 {
   font-weight: bold;
 }
 
-.content h1 {
+h1 {
   font-size: 96px;
   font-weight: bold;
   line-height: 1.5;
@@ -30,6 +30,16 @@ h6 {
 h2 {
   font-size: 64px;
   font-family: var(--heading-font-family);
+}
+
+h4 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
 }
 
 .content h3 {
@@ -49,12 +59,6 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-p {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 30px;
 }
 
 .hero h2 {
@@ -119,27 +123,39 @@ p {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.email-link {
-  color: #000000;
-  font-size: 20px;
-  font-weight: 600;
-  opacity: 0.9;
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  color: black;
+  font-size: 24px;
   text-decoration: none;
 }
-.email-link:hover {
+footer .email-link:hover {
   color: var(--branding-color);
 }
 
-.social-links a {
+footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
-  background-color: #cdf0ea;
-  padding: 10px 14px;
-  font-size: 20px;
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
-.social-links a:hover {
+footer .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
 }
@@ -185,6 +201,14 @@ nav li.active a {
     font-size: 44px;
   }
 
+  nav a {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -197,9 +221,5 @@ nav li.active a {
   .content {
     text-align: center;
     padding: 0;
-  }
-
-  nav a {
-    font-size: 14px;
   }
 }
