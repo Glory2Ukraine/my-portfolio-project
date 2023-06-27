@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Yulia is a front-end developer based in Canada"
+    />
+    <title>Front-end developer - Yulia Vorobiova</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -25,23 +29,23 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo.png"
-            alt="logo"
+            alt="SheCodes logo"
             class="logo d-none d-md-block"
           />
           <img
             src="images/logo.jpg"
-            alt="Logo"
+            alt="SheCodes logo"
             class="logo d-block d-md-none"
           />
         </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Yulia">About</a></li>
+          <li><a href="/work.html" title="Yulia's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Yulia">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -51,17 +55,21 @@
         <h1>Yulia Vorobiova</h1>
         <h2 class="mb-5">Front-end developer based in Canada</h2>
         <div>
-          <a href="#" class="btn btn-branding">Contact me</a>
+          <a href="/contact.html" class="btn btn-branding" title="Contact me"
+            >Contact me</a
+          >
         </div>
       </div>
     </div>
-    <p class="text-center m-5">
-      Featured Project which my best projects be choice to show
-    </p>
+    <p class="text-center m-5">Check out some of my featured projects below</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/gallery.png" class="img-fluid" alt="" />
+          <img
+            src="/images/gallery.png"
+            class="img-fluid"
+            alt="Gallery project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -75,7 +83,7 @@
               Kharkiv City Gallery also includes photographs that depict the
               destruction caused by the russian invasion of Ukraine.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
 
@@ -94,16 +102,26 @@
                 app offers a seamless and enjoyable experience, making it an
                 essential tool for every user.
               </p>
-              <a href="" class="btn btn-branding-outline">Learn more</a>
+              <a href="/work.html" class="btn btn-branding-outline"
+                >Learn more</a
+              >
             </div>
           </div>
           <div class="col d-none d-lg-block">
-            <img src="/images/weather.png" class="img-fluid" alt="" />
+            <img
+              src="/images/weather.png"
+              class="img-fluid"
+              alt="Weather project preview"
+            />
           </div>
         </div>
         <div class="row">
           <div class="col d-none d-lg-block">
-            <img src="/images/ballet.png" class="img-fluid" alt="" />
+            <img
+              src="/images/ballet.png"
+              class="img-fluid"
+              alt="Ballet project preview"
+            />
           </div>
           <div class="col">
             <div class="project-description">
@@ -117,7 +135,9 @@
                 smaller space than a ballet studio and without specialist
                 equipment, so are perfect to do at home.
               </p>
-              <a href="" class="btn btn-branding-outline">Learn more</a>
+              <a href="/work.html" class="btn btn-branding-outline"
+                >Learn more</a
+              >
             </div>
           </div>
         </div>
@@ -129,11 +149,20 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3"> Contact me </a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Yulia"
+            >
+              Contact me
+            </a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:vorobiova.yu@gmail.com" class="email-link"
+          <a
+            href="mailto:vorobiova.yu@gmail.com"
+            class="email-link"
+            title="Email Yulia"
             >vorobiova.yu@gmail.com</a
           >
         </div>
@@ -156,6 +185,14 @@
             <i class="fab fa-instagram"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Yulia Vorobiova, and it is
+          <a
+            href="https://github.com/Glory2Ukraine/my-portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
